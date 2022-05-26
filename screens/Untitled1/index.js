@@ -1,5 +1,4 @@
 import { ImageBackground } from "react-native";
-import { Text } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
@@ -10,25 +9,7 @@ const Untitled1 = () => {
     position: 'relative',
     height: '100%'
   }}>
-      <View style={{
-      left: 38,
-      top: 20,
-      position: "absolute",
-      height: 60,
-      width: 140,
-      backgroundColor: "#E4E4E4",
-      borderRadius: 0,
-      color: "#777777"
-    }}></View><Text style={{
-      left: 58,
-      top: 124,
-      position: "absolute",
-      width: 100,
-      height: 50,
-      lineHeight: 14,
-      fontSize: 14,
-      borderRadius: 0
-    }}>Lorem ipsum… </Text><ImageBackground style={{
+      <ImageBackground style={{
       left: 90,
       top: 241,
       position: "absolute",
